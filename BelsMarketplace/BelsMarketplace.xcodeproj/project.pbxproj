@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1000402D2CB7C49200C1A6B8 /* ItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1000402C2CB7C49200C1A6B8 /* ItemCard.swift */; };
+		10647A362C8EB48C006F2F23 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10647A352C8EB48C006F2F23 /* MainView.swift */; };
+		10647A382C8EBB2D006F2F23 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10647A372C8EBB2D006F2F23 /* HomeView.swift */; };
+		10647A3A2C8EBB35006F2F23 /* CartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10647A392C8EBB35006F2F23 /* CartsView.swift */; };
+		10647A3C2C8EBB3C006F2F23 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10647A3B2C8EBB3C006F2F23 /* ProfileView.swift */; };
+		10647A3E2C8EBB48006F2F23 /* LikesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10647A3D2C8EBB48006F2F23 /* LikesView.swift */; };
+		6BE2CAC72C8DA5E300B49FBF /* BelsMarketplaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE2CAC62C8DA5E300B49FBF /* BelsMarketplaceApp.swift */; };
+		6BE2CACB2C8DA5E500B49FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE2CACA2C8DA5E500B49FBF /* Assets.xcassets */; };
+		6BE2CACF2C8DA5E500B49FBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE2CACE2C8DA5E500B49FBF /* Preview Assets.xcassets */; };
+		6BE2CAD92C8DA5E600B49FBF /* BelsMarketplaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE2CAD82C8DA5E600B49FBF /* BelsMarketplaceTests.swift */; };
+		6BE2CAE32C8DA5E600B49FBF /* BelsMarketplaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE2CAE22C8DA5E600B49FBF /* BelsMarketplaceUITests.swift */; };
+		6BE2CAE52C8DA5E600B49FBF /* BelsMarketplaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE2CAE42C8DA5E600B49FBF /* BelsMarketplaceUITestsLaunchTests.swift */; };
+		6BE2CAF92C8DE0B900B49FBF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 6BE2CAF82C8DE0B900B49FBF /* SwiftyJSON */; };
+		6BE2CAFF2C8DE0EF00B49FBF /* RESTConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE2CAFE2C8DE0EF00B49FBF /* RESTConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BE2CAD52C8DA5E600B49FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BE2CABB2C8DA5E300B49FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BE2CAC22C8DA5E300B49FBF;
+			remoteInfo = BelsMarketplace;
+		};
+		6BE2CADF2C8DA5E600B49FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BE2CABB2C8DA5E300B49FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BE2CAC22C8DA5E300B49FBF;
+			remoteInfo = BelsMarketplace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1000402C2CB7C49200C1A6B8 /* ItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCard.swift; sourceTree = "<group>"; };
+		10647A352C8EB48C006F2F23 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		10647A372C8EBB2D006F2F23 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		10647A392C8EBB35006F2F23 /* CartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartsView.swift; sourceTree = "<group>"; };
+		10647A3B2C8EBB3C006F2F23 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		10647A3D2C8EBB48006F2F23 /* LikesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesView.swift; sourceTree = "<group>"; };
+		6BE2CAC32C8DA5E300B49FBF /* BelsMarketplace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BelsMarketplace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE2CAC62C8DA5E300B49FBF /* BelsMarketplaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelsMarketplaceApp.swift; sourceTree = "<group>"; };
+		6BE2CACA2C8DA5E500B49FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BE2CACC2C8DA5E500B49FBF /* BelsMarketplace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BelsMarketplace.entitlements; sourceTree = "<group>"; };
+		6BE2CACE2C8DA5E500B49FBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BE2CAD42C8DA5E600B49FBF /* BelsMarketplaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BelsMarketplaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE2CAD82C8DA5E600B49FBF /* BelsMarketplaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelsMarketplaceTests.swift; sourceTree = "<group>"; };
+		6BE2CADE2C8DA5E600B49FBF /* BelsMarketplaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BelsMarketplaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE2CAE22C8DA5E600B49FBF /* BelsMarketplaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelsMarketplaceUITests.swift; sourceTree = "<group>"; };
+		6BE2CAE42C8DA5E600B49FBF /* BelsMarketplaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelsMarketplaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6BE2CAFE2C8DE0EF00B49FBF /* RESTConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTConfig.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BE2CAC02C8DA5E300B49FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE2CAF92C8DE0B900B49FBF /* SwiftyJSON in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE2CAD12C8DA5E600B49FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE2CADB2C8DA5E600B49FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10647A322C8EB3A8006F2F23 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6BE2CAC62C8DA5E300B49FBF /* BelsMarketplaceApp.swift */,
+				10647A352C8EB48C006F2F23 /* MainView.swift */,
+				10647A372C8EBB2D006F2F23 /* HomeView.swift */,
+				10647A392C8EBB35006F2F23 /* CartsView.swift */,
+				10647A3B2C8EBB3C006F2F23 /* ProfileView.swift */,
+				10647A3D2C8EBB48006F2F23 /* LikesView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		10647A332C8EB3B3006F2F23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1000402C2CB7C49200C1A6B8 /* ItemCard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10647A342C8EB3BC006F2F23 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		6BE2CABA2C8DA5E300B49FBF = {
+			isa = PBXGroup;
+			children = (
+				6BE2CAC52C8DA5E300B49FBF /* BelsMarketplace */,
+				6BE2CAD72C8DA5E600B49FBF /* BelsMarketplaceTests */,
+				6BE2CAE12C8DA5E600B49FBF /* BelsMarketplaceUITests */,
+				6BE2CAC42C8DA5E300B49FBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BE2CAC42C8DA5E300B49FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BE2CAC32C8DA5E300B49FBF /* BelsMarketplace.app */,
+				6BE2CAD42C8DA5E600B49FBF /* BelsMarketplaceTests.xctest */,
+				6BE2CADE2C8DA5E600B49FBF /* BelsMarketplaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE2CAC52C8DA5E300B49FBF /* BelsMarketplace */ = {
+			isa = PBXGroup;
+			children = (
+				10647A342C8EB3BC006F2F23 /* View Model */,
+				10647A332C8EB3B3006F2F23 /* View */,
+				10647A322C8EB3A8006F2F23 /* App */,
+				6BE2CAF12C8DA65F00B49FBF /* Service */,
+				6BE2CACA2C8DA5E500B49FBF /* Assets.xcassets */,
+				6BE2CACC2C8DA5E500B49FBF /* BelsMarketplace.entitlements */,
+				6BE2CACD2C8DA5E500B49FBF /* Preview Content */,
+			);
+			path = BelsMarketplace;
+			sourceTree = "<group>";
+		};
+		6BE2CACD2C8DA5E500B49FBF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6BE2CACE2C8DA5E500B49FBF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6BE2CAD72C8DA5E600B49FBF /* BelsMarketplaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BE2CAD82C8DA5E600B49FBF /* BelsMarketplaceTests.swift */,
+			);
+			path = BelsMarketplaceTests;
+			sourceTree = "<group>";
+		};
+		6BE2CAE12C8DA5E600B49FBF /* BelsMarketplaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BE2CAE22C8DA5E600B49FBF /* BelsMarketplaceUITests.swift */,
+				6BE2CAE42C8DA5E600B49FBF /* BelsMarketplaceUITestsLaunchTests.swift */,
+			);
+			path = BelsMarketplaceUITests;
+			sourceTree = "<group>";
+		};
+		6BE2CAF12C8DA65F00B49FBF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6BE2CAFD2C8DE0E100B49FBF /* Base */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6BE2CAFD2C8DE0E100B49FBF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6BE2CAFE2C8DE0EF00B49FBF /* RESTConfig.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BE2CAC22C8DA5E300B49FBF /* BelsMarketplace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE2CAE82C8DA5E600B49FBF /* Build configuration list for PBXNativeTarget "BelsMarketplace" */;
+			buildPhases = (
+				6BE2CABF2C8DA5E300B49FBF /* Sources */,
+				6BE2CAC02C8DA5E300B49FBF /* Frameworks */,
+				6BE2CAC12C8DA5E300B49FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BelsMarketplace;
+			packageProductDependencies = (
+				6BE2CAF82C8DE0B900B49FBF /* SwiftyJSON */,
+			);
+			productName = BelsMarketplace;
+			productReference = 6BE2CAC32C8DA5E300B49FBF /* BelsMarketplace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BE2CAD32C8DA5E600B49FBF /* BelsMarketplaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE2CAEB2C8DA5E600B49FBF /* Build configuration list for PBXNativeTarget "BelsMarketplaceTests" */;
+			buildPhases = (
+				6BE2CAD02C8DA5E600B49FBF /* Sources */,
+				6BE2CAD12C8DA5E600B49FBF /* Frameworks */,
+				6BE2CAD22C8DA5E600B49FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BE2CAD62C8DA5E600B49FBF /* PBXTargetDependency */,
+			);
+			name = BelsMarketplaceTests;
+			productName = BelsMarketplaceTests;
+			productReference = 6BE2CAD42C8DA5E600B49FBF /* BelsMarketplaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BE2CADD2C8DA5E600B49FBF /* BelsMarketplaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE2CAEE2C8DA5E600B49FBF /* Build configuration list for PBXNativeTarget "BelsMarketplaceUITests" */;
+			buildPhases = (
+				6BE2CADA2C8DA5E600B49FBF /* Sources */,
+				6BE2CADB2C8DA5E600B49FBF /* Frameworks */,
+				6BE2CADC2C8DA5E600B49FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BE2CAE02C8DA5E600B49FBF /* PBXTargetDependency */,
+			);
+			name = BelsMarketplaceUITests;
+			productName = BelsMarketplaceUITests;
+			productReference = 6BE2CADE2C8DA5E600B49FBF /* BelsMarketplaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BE2CABB2C8DA5E300B49FBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6BE2CAC22C8DA5E300B49FBF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6BE2CAD32C8DA5E600B49FBF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6BE2CAC22C8DA5E300B49FBF;
+					};
+					6BE2CADD2C8DA5E600B49FBF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6BE2CAC22C8DA5E300B49FBF;
+					};
+				};
+			};
+			buildConfigurationList = 6BE2CABE2C8DA5E300B49FBF /* Build configuration list for PBXProject "BelsMarketplace" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BE2CABA2C8DA5E300B49FBF;
+			packageReferences = (
+				6BE2CAF72C8DE0B900B49FBF /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = 6BE2CAC42C8DA5E300B49FBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BE2CAC22C8DA5E300B49FBF /* BelsMarketplace */,
+				6BE2CAD32C8DA5E600B49FBF /* BelsMarketplaceTests */,
+				6BE2CADD2C8DA5E600B49FBF /* BelsMarketplaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BE2CAC12C8DA5E300B49FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE2CACF2C8DA5E500B49FBF /* Preview Assets.xcassets in Resources */,
+				6BE2CACB2C8DA5E500B49FBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE2CAD22C8DA5E600B49FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE2CADC2C8DA5E600B49FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BE2CABF2C8DA5E300B49FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE2CAFF2C8DE0EF00B49FBF /* RESTConfig.swift in Sources */,
+				10647A382C8EBB2D006F2F23 /* HomeView.swift in Sources */,
+				1000402D2CB7C49200C1A6B8 /* ItemCard.swift in Sources */,
+				10647A3E2C8EBB48006F2F23 /* LikesView.swift in Sources */,
+				10647A3A2C8EBB35006F2F23 /* CartsView.swift in Sources */,
+				10647A362C8EB48C006F2F23 /* MainView.swift in Sources */,
+				10647A3C2C8EBB3C006F2F23 /* ProfileView.swift in Sources */,
+				6BE2CAC72C8DA5E300B49FBF /* BelsMarketplaceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE2CAD02C8DA5E600B49FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE2CAD92C8DA5E600B49FBF /* BelsMarketplaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE2CADA2C8DA5E600B49FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE2CAE52C8DA5E600B49FBF /* BelsMarketplaceUITestsLaunchTests.swift in Sources */,
+				6BE2CAE32C8DA5E600B49FBF /* BelsMarketplaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BE2CAD62C8DA5E600B49FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BE2CAC22C8DA5E300B49FBF /* BelsMarketplace */;
+			targetProxy = 6BE2CAD52C8DA5E600B49FBF /* PBXContainerItemProxy */;
+		};
+		6BE2CAE02C8DA5E600B49FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BE2CAC22C8DA5E300B49FBF /* BelsMarketplace */;
+			targetProxy = 6BE2CADF2C8DA5E600B49FBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6BE2CAE62C8DA5E600B49FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BE2CAE72C8DA5E600B49FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6BE2CAE92C8DA5E600B49FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BelsMarketplace/BelsMarketplace.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BelsMarketplace/Preview Content\"";
+				DEVELOPMENT_TEAM = V6D662H8CQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bel.BelsMarketplace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BE2CAEA2C8DA5E600B49FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BelsMarketplace/BelsMarketplace.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BelsMarketplace/Preview Content\"";
+				DEVELOPMENT_TEAM = V6D662H8CQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bel.BelsMarketplace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BE2CAEC2C8DA5E600B49FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6D662H8CQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bel.BelsMarketplaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BelsMarketplace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BelsMarketplace";
+			};
+			name = Debug;
+		};
+		6BE2CAED2C8DA5E600B49FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6D662H8CQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bel.BelsMarketplaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BelsMarketplace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BelsMarketplace";
+			};
+			name = Release;
+		};
+		6BE2CAEF2C8DA5E600B49FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6D662H8CQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bel.BelsMarketplaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BelsMarketplace;
+			};
+			name = Debug;
+		};
+		6BE2CAF02C8DA5E600B49FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6D662H8CQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bel.BelsMarketplaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BelsMarketplace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BE2CABE2C8DA5E300B49FBF /* Build configuration list for PBXProject "BelsMarketplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE2CAE62C8DA5E600B49FBF /* Debug */,
+				6BE2CAE72C8DA5E600B49FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE2CAE82C8DA5E600B49FBF /* Build configuration list for PBXNativeTarget "BelsMarketplace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE2CAE92C8DA5E600B49FBF /* Debug */,
+				6BE2CAEA2C8DA5E600B49FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE2CAEB2C8DA5E600B49FBF /* Build configuration list for PBXNativeTarget "BelsMarketplaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE2CAEC2C8DA5E600B49FBF /* Debug */,
+				6BE2CAED2C8DA5E600B49FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE2CAEE2C8DA5E600B49FBF /* Build configuration list for PBXNativeTarget "BelsMarketplaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE2CAEF2C8DA5E600B49FBF /* Debug */,
+				6BE2CAF02C8DA5E600B49FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6BE2CAF72C8DE0B900B49FBF /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6BE2CAF82C8DE0B900B49FBF /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6BE2CAF72C8DE0B900B49FBF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6BE2CABB2C8DA5E300B49FBF /* Project object */;
+}
